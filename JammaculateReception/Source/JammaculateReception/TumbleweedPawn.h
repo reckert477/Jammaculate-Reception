@@ -47,10 +47,13 @@ protected:
 	virtual void MoveByRotate(float Value);
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-		UPaperSpriteComponent* PlayerSprite;
+	UPaperSpriteComponent* PlayerSprite;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-		UCapsuleComponent* Collider;
+	UCapsuleComponent* Collider;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	AActor* CurrentBG;
 
 public:	
 	// Called every frame
