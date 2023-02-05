@@ -44,7 +44,12 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Orientation")
 	float YOffset;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Orientation")
+	float SpawnDepth;
+
 	UPROPERTY(BlueprintReadWrite)
 	bool Transitioning;
+
+	
 
 };

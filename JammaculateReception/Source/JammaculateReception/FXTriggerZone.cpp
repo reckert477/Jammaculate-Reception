@@ -16,6 +16,7 @@ AFXTriggerZone::AFXTriggerZone()
 	// Size of sprite in pixels times 10
 	XOffset = -31250;
 	YOffset = 25000;
+	SpawnDepth = -10000;
 
 	Transitioning = false;
 
